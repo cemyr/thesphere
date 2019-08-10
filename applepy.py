@@ -1,4 +1,4 @@
-!pip list
+#!pip list
 import pathlib
 from pathlib import Path
 from matplotlib import pyplot
