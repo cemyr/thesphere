@@ -2,4 +2,5 @@
 import pathlib
 from pathlib import Path
 from matplotlib import pyplot
-print("hi, how are you")
+x = input("whats your name?")
+print("hi, how are you", " ", x)
