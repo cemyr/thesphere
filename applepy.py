@@ -8,7 +8,7 @@ print("hi this is a welcome message for you")
 #as this is just to test and train git
 #however, doesnt really matter, as long as I can write
 #boring spontaneous comments
-import inspection
+#may not be reactivated # import inspection
 #dont even know if inspection exisits or has to be pip installed ..lets find out
 #another thought...should convert this thang into jupyter to get it flying ...how will git
 #be integitrated ...hihi
@@ -19,3 +19,10 @@ import inspection
 # %who
 x = input("whats your name?")
 print("hi, how are you", " ", x)
+
+y = input("what do you want to do today, options are a) writing code b) organizing stuff c) learning something d) chill and relax")
+import pandas as pd
+def updateframe(df):
+    df[0]+=pd.DataFrame([y])
+    return(df)
+
